@@ -1,0 +1,14 @@
+Write a program that processes a text file. The file will contain words in separate lines.
+Implement two modes of processing:
+
+MODE 1:
+Sort the words by word length, in ascending order.
+Sort words of even length alphabetically.
+Output only words beginning with a vowel, discarding duplicates. 
+
+MODE 2:
+For each word, output the total number of lines in the file raised to the power of the word's length. 
+if a word contains ‘x’, use the same value as for the first word not matching this condition instead.
+
+BONUS:
+Create set of functional tests proving that your solution to given problem is right.
